@@ -24,7 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEVICE_VER      0x0205
 #define MANUFACTURER    maksrojek
 #define PRODUCT         Pochrzyn
-#define DESCRIPTION     5-key macropad with encoder
+#define DESCRIPTION     6-key macropad with encoder
 
 /* key matrix size */
 #define MATRIX_ROWS 2
