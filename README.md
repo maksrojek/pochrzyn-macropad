@@ -83,7 +83,15 @@ so it can be imported there to modify.
 
 You can find the list of parts in the `hardware/production/bom.csv` file.
 
-**3. Flashing firmware**
+**3. Assembly**
+
+One thing to consider during assembly is the position of the microcontroller. It can be
+placed under the screen, with its components facing the pcb (upside down). 
+This way the assembled keyboard can be very slim. 
+The microcontroller can also be placed under the pcb. There are markings on the board
+to help you position the Pro Micro correctly.
+
+**4. Flashing firmware**
 
 After assembly, you can flash the firmware included in this repo `pochrzyn_via.hex`
 using [QMK Toolbox](https://github.com/qmk/qmk_toolbox) or compile it on your own - 
