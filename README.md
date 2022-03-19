@@ -35,7 +35,7 @@ If you have any problem refer to the [QMK docs](https://docs.qmk.fm/#/newbs_flas
 
 First, set up your [build environment](https://get.vial.today/gettingStarted/porting-to-vial.html).
 
-Next, copy the insides of the folder `vial`, that you can find in this repository, to the `vial-qmk/keyboards`.
+Next, copy the insides of the folder `vial`, that you can find in this repository, to the `vial-qmk/keyboards`. There's a `pochrzyn_v2` folder that has support for the RGB Matrix. You can use either of those two: `pochrzyn` or `pochrzyn_v2`.
 Your folder structure in the `vial_qmk` should look like this:
 ```
 .
@@ -96,3 +96,8 @@ to help you position the Pro Micro correctly.
 After assembly, you can flash the firmware included in this repo `pochrzyn_via.hex`
 using [QMK Toolbox](https://github.com/qmk/qmk_toolbox) or compile it on your own - 
 refer to section [Writing custom code](#writing-custom-code).
+
+## Changelog
+### 2022/03/19
+- added support for the RGB Matrix, so starting from Vial v4.0 there's possibility to change the behavior of the built in RGB lights. Download the latest Vial version and check out the **Lighting** secion.
+- updated Oled code
